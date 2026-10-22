@@ -1,0 +1,23 @@
+{
+  "name": "librairie-api",
+  "version": "1.0.0",
+  "description": "API REST de librairie en ligne (Node.js, Express, MySQL, JWT, bcrypt) - 420-WA6-AG Étape 02",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node scripts/initDb.js",
+    "clean:paniers": "node scripts/cleanPaniers.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^4.22.3",
+    "helmet": "^8.3.0",
+    "joi": "^18.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  }
+}
